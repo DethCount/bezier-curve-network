@@ -1,3 +1,16 @@
+## Description
+
+The goal of this projet is to be able to design multiple curves with joint points and to be able to extract corresponding coordinates.
+
+Initial goal is the game designing of construction leveling in the Jgame repository (construction_type_level properties generation).
+
+## About Bezier curves
+
+https://pages.mtu.edu/~shene/COURSES/cs3621/NOTES/spline/Bezier/bezier-sub.html
+https://pages.mtu.edu/~shene/COURSES/cs3621/NOTES/spline/Bezier/de-casteljau.html
+https://developer.mozilla.org/fr/docs/Web/SVG/Tutoriel/Paths#Commandes_pour_les_courbes
+https://cubic-bezier.com/#.59,.21,.29,1.34
+
 # BezierCurvesNetwork
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.

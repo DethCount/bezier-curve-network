@@ -1,0 +1,18 @@
+<table border="1">
+    <thead>
+        <tr>
+            <th>i</th>
+            <th>x</th>
+            <th>y</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr
+            *ngFor="let vector of this.vectors|keyvalue"
+            >
+            <td><app-number-format decimals="0" [value]="vector.key"></app-number-format></td>
+            <td><app-number-format decimals="3" [value]="vector.value.x"></app-number-format></td>
+            <td><app-number-format decimals="3" [value]="vector.value.y"></app-number-format></td>
+        </tr>
+    </tbody>
+</table>

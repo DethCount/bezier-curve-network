@@ -1,0 +1,19 @@
+<svg:g>
+    <svg:g app-line
+        *ngIf="pointsLoaded"
+        [points]="controlPoints"
+        [color]="controlLineColor"
+        ></svg:g>
+    <svg:g app-line 
+        *ngIf="pointsLoaded"
+        [points]="points"
+        [color]="lineColor"
+        ></svg:g>
+    <svg:g app-point
+        *ngFor="let point of controlPoints|keyvalue"
+        [point]="point.value"
+        [color]="pointColor"
+        [r]="pointRadius"
+        (mousedown)="onDragStart(point.key, $event)"
+        ></svg:g>
+</svg:g>
